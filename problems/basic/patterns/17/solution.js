@@ -8,19 +8,25 @@
  * input: 5
  * output:
  * [
- *   ["*", "*", "*", "*", "*"],
- *   ["*", "*", "*", "*", "*"],
- *   ["*", "*", "*", "*", "*"],
- *   ["*", "*", "*", "*", "*"],
- *   ["*", "*", "*", "*", "*"]
+ *   [" ", " ", " ", " ", "A", " ", " ", " ", " "],
+ *   [" ", " ", " ", "A", "B", "A", " ", " ", " "],
+ *   [" ", " ", "A", "B", "C", "B", "A", " ", " "],
+ *   [" ", "A", "B", "C", "D", "C", "B", "A", " "],
+ *   ["A", "B", "C", "D", "E", "D", "C", "B", "A"]
  * ]
  */
 var createPattern = function (n) {
     var result = [];
     for (var i = 0; i < n; i++) {
         var row = [];
-        for (var j = 0; j < n; j++) {
-            row.push("*");
+        for (var j = 0; j < n - i; j++) {
+            row.push(" ");
+        }
+        for (var j = 0; j < i + 1; j++) {
+            row.push(String.fromCharCode(65 + j));
+        }
+        for (var j = 0; j < i; j++) {
+            row.push(String.fromCharCode(65 + i - j - 1));
         }
         result.push(row);
     }
