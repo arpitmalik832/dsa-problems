@@ -1,6 +1,6 @@
 # DSA Practice
 
-Solutions to Data Structures and Algorithm problems in multiple languages.
+Solutions to Data Structures and Algorithm problems in JS language.
 
 ## Structure
 
