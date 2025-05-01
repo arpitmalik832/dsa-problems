@@ -1,0 +1,68 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Majority Element II",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Majority_Element_II.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Reverse an Array",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Reverse_an_array.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Rotate Array AntiClockwise",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Rotate_Array_AntiClockwise.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Next Permutation",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Next_Permutation.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
