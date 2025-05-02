@@ -1,4 +1,6 @@
 /**
+ * Boyer-Moore Voting Algorithm
+ *
  * Given an array of integers where each number represents a vote to a candidate,
  * return the candidates that have votes greater than one-third of the total votes.
  * If there's no majority vote, return an empty array.
@@ -73,3 +75,4 @@ function majorityElement(arr) {
 console.log(majorityElement([2, 1, 5, 5, 5, 5, 6, 6, 6, 6, 6])); // [5, 6]
 console.log(majorityElement([1, 2, 3, 4, 5])); // []
 console.log(majorityElement([1, 1, 1, 3, 3, 2, 2, 2])); // [1, 2]
+console.log(majorityElement([1, 3])); // [1, 3]

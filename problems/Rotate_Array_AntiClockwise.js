@@ -18,8 +18,8 @@
  * Explanation: when we rotate 9 times, we'll get 3 9 1 7 as resultant array.
  *
  * Constraints:
- * 1 <= arr.size(), d <= 105
- * 0 <= arr[i] <= 105
+ * 1 <= arr.size(), d <= 10^5
+ * 0 <= arr[i] <= 10^5
  */
 
 /**

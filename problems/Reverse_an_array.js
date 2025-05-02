@@ -18,8 +18,8 @@
  * Explanation: The array has only single element, hence the reversed array is same as the original.
  *
  * Constraints:
- * 1<=arr.size()<=105
- * 0<=arr[i]<=105
+ * 1 <= arr.size() <= 10^5
+ * 0 <= arr[i] <= 10^5
  */
 
 /**
