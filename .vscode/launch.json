@@ -108,6 +108,81 @@
         "NODE_ENV": "development"
       },
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Kadane's Algorithm",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Kadane_Algorithm.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Max Product Subarray",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Max_Product_Subarray.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Max Circular Subarray Sum",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Max_Circular_subarray_sum.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Smallest Positive Missing",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Smallest_Positive_missing.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Food Packets Distribution",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/Food_Packets_Distribution.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
