@@ -258,6 +258,51 @@
         "NODE_ENV": "development"
       },
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Sum of pair k",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Two Pointers/Sum_of_pair_k.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Sum of pair k II",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Two Pointers/Sum_of_pair_k_II.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Check pair diff k",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Two Pointers/Check_pair_diff_k.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
