@@ -189,7 +189,7 @@
       "request": "launch",
       "name": "Merge Intervals",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/problems/Prob.js",
+      "program": "${workspaceFolder}/problems/scaler/1-D_Array/Merge_Intervals.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
