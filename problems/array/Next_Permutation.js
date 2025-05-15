@@ -21,7 +21,7 @@
  * Steps:
  * 1. Find the first pair from right where arr[i] < arr[i+1]
  * 2. If no such pair is found, reverse the array
- * 3. If such a pair is found, find the smallest number greater than arr[i]
+ * 3. If such a pair is found, find the number greater than arr[i] and closest to the last index
  * 4. Swap the numbers
  * 5. Reverse the suffix after i
  */

@@ -31,7 +31,7 @@ function soln(A, B) {
   let j = m - 1;
   let carry = 0;
   let finalSum = "";
-  while (i >= 0 || (j >= 0) | (carry > 0)) {
+  while (i >= 0 || j >= 0 || carry > 0) {
     let sum = carry;
     if (i >= 0) {
       sum += Number(aArr[i]);
