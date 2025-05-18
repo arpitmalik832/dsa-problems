@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Factors",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Factors",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Sum_of_pair_K",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Sum_of_pair_K",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Sum_of_Pair_k_II",
       "request": "launch",
       "mainClass": "com.dsa.problems.two_pointers.Sum_of_Pair_k_II",
