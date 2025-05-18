@@ -48,6 +48,7 @@ const soln2 = (A, B) => {
  * Space Complexity: O(1)
  */
 const soln3 = (A, B) => {
+  const MOD = 1000000007;
   const n = A.length;
   let i = 0;
   let j = n - 1;
@@ -56,29 +57,28 @@ const soln3 = (A, B) => {
     const sum = A[i] + A[j];
     if (sum === B) {
       if (A[i] === A[j]) {
-        count += j - i + 1;
-        break;
-      } else {
-        let counti = 0;
-        for (let k = i; k < j; k++) {
-          if (A[k] === A[i]) {
-            counti++;
-          } else {
-            break;
-          }
-        }
-        let countj = 0;
-        for (let k = j; k > i; k--) {
-          if (A[k] === A[j]) {
-            countj++;
-          } else {
-            break;
-          }
-        }
-        count += counti * countj;
-        i += counti;
-        j -= countj;
+        console.log(count + " " + (j - i + 1) * (j - i) / 2);
+        return (count + (j - i + 1) * (j - i) / 2) % MOD;
       }
+      let counti = 0;
+      let countj = 0;
+      for (let k = i; k < j; k++) {
+        if (A[k] === A[i]) {
+          counti++;
+        } else {
+          break;
+        }
+      }
+      for (let k = j; k > i; k--) {
+        if (A[k] === A[j]) {
+          countj++;
+        } else {
+          break;
+        }
+      }
+      count = (count + counti * countj) % MOD;
+      i += counti;
+      j -= countj;
     } else if (sum < B) {
       i++;
     } else {
@@ -101,3 +101,11 @@ console.log(soln2([1, 1, 1], 2)); // 3 pairs: (1,1) appears 3 times
 console.log("\nTwo pointers:");
 console.log(soln3([1, 2, 3, 4, 5], 5)); // 2 pairs: (1,4) and (2,3)
 console.log(soln3([1, 1, 1], 2)); // 3 pairs: (1,1) appears 3 times
+console.log(soln3([4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666, 4629666,
+  4629666, 4629666], 9259332));
