@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "In_Place_Prefix_Sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.prefix_sum.In_Place_Prefix_Sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Special_Index",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.prefix_sum.Special_Index",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Is_Palindrome",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Is_Palindrome",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Days_in_Month",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Days_in_Month",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "If_Else_II",
       "request": "launch",
       "mainClass": "com.dsa.problems.basic.If_Else_II",
