@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Pattern_Printing_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Pattern_Printing_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Pattern_Printing",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Pattern_Printing",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Print_Letters",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Print_Letters",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Concatenation",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Concatenation",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Simple_Calculator",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.Simple_Calculator",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "com.dsa.intro.Input",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Type_Casting",
       "request": "launch",
       "mainClass": "com.dsa.intro.Type_Casting",
@@ -43,11 +85,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Majority Element II",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Majority_Element_II.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -58,11 +104,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Reverse an Array",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Reverse_an_array.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -73,11 +123,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Rotate Array AntiClockwise",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Rotate_Array_AntiClockwise.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -88,11 +142,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Next Permutation",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Next_Permutation.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -103,11 +161,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Stock Buy and Sell",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Stock_buy_n_Sell.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -118,11 +180,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Stock Buy and Sell II",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Stock_buy_n_Sell_II.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -133,11 +199,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Minimise the Heights",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Minimise_the_heights.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -148,11 +218,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Kadane's Algorithm",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Kadane_Algorithm.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -163,11 +237,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Max Product Subarray",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Max_Product_Subarray.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -178,11 +256,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Max Circular Subarray Sum",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Max_Circular_subarray_sum.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -193,11 +275,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Smallest Positive Missing",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Smallest_Positive_missing.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -208,11 +294,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Food Packets Distribution",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/Food_Packets_Distribution.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -223,11 +313,15 @@
       "type": "node",
       "request": "launch",
       "name": "Merge Intervals",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/1-D_Array/Merge_Intervals.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -238,11 +332,15 @@
       "type": "node",
       "request": "launch",
       "name": "Merge Intervals II",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/1-D_Array/Merge_Intervals_II.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -253,11 +351,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Max Subarray Sum",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/1-D_Array/Max_Subarray_Sum.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -268,11 +370,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Contigous Array Queries",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/1-D_Array/Contigous_Array_Queries.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -283,11 +389,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Flip",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/1-D_Array/Flip.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -298,11 +408,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Sum of pair k",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Sum_of_pair_k.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -313,11 +427,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Sum of pair k II",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Sum_of_pair_k_II.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -328,11 +446,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Check pair diff k",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Check_pair_diff_k.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -343,11 +465,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Check pair diff k II",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Check_pair_diff_k_II.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -358,11 +484,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Subarray Sum K",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/subarray_sum_k.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -373,11 +503,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Area containing max water",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Area_containing_max_water.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -388,11 +522,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch 3 Sum",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/3_Sum.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -403,11 +541,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Array 3 pointers",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Array_3_pointers.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -418,11 +560,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Max Continuous Series of 1s",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Max_Continuous_series_of_1.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -433,11 +579,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Another count rectange",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Another_count_rectange.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -448,11 +598,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Closest pair from sorted arrays",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Two Pointers/Closest_pair_from_sorted_arrays.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -463,11 +617,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Special Index",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Prefix_sum/Special_index.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -478,11 +636,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch K in a sorted matrix",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/2-D_Array/K_in_a_sorted_matrix.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -493,11 +655,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Sum of all submatrices sum",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/2-D_Array/Sum_of_all_submatrices_sum.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -508,11 +674,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Row with max 1s",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/2-D_Array/Row_with_max_1s.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -523,11 +693,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Atoi",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/strings/Atoi.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -538,11 +712,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Binary Sum",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/strings/Binary_sum.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -553,11 +731,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Anagram",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/strings/Anagram.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -568,11 +750,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Spiral Order Matrix II",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/2-D_Array/Spiral_order_matrix_II.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -583,11 +769,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Rain Water Trapping",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/1-D_Array/Rain_water_trapping.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -598,11 +788,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Boundary Traversal",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/2-D_Array/Boundary_traversal.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -613,11 +807,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Anagram",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/strings/Anagram.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -628,11 +826,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Non Repeating Character",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/strings/NonRepeatingChar.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -643,11 +845,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Factors",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/basic_problems/Factors.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -658,11 +864,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Count of 1s in binary rep",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/count_of_1s_in_binary_rep.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -673,11 +883,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Different Bits Sum Pairwise",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/different_bits_sum_pairwise.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
@@ -688,11 +902,15 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Interesting Array",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/Interesting_array.js",
       "args": [],
       "console": "integratedTerminal",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
       "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
       "env": {
         "NODE_ENV": "development"
