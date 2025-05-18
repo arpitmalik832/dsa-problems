@@ -5,6 +5,41 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Type_Casting",
+      "request": "launch",
+      "mainClass": "com.dsa.intro.Type_Casting",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Data_types",
+      "request": "launch",
+      "mainClass": "com.dsa.intro.Data_types",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Print",
+      "request": "launch",
+      "mainClass": "com.dsa.intro.Print",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.dsa.intro.Main",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.dsa.Main",
+      "projectName": "dsa-practice"
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "Launch Majority Element II",
