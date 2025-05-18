@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "If_Else_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.basic.If_Else_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Pattern_Printing_II",
       "request": "launch",
       "mainClass": "com.dsa.problems.basic.Pattern_Printing_II",
