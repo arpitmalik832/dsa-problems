@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Check_Pair_Diff_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Check_Pair_Diff_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Check_Pair_Diff",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Check_Pair_Diff",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Array_3_Pointer",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Array_3_Pointer",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Area_Containing_Max_Water",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Area_Containing_Max_Water",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Another_Count_Rectangle",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Another_Count_Rectangle",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Three_Sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.two_pointers.Three_Sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "In_Place_Prefix_Sum",
       "request": "launch",
       "mainClass": "com.dsa.problems.prefix_sum.In_Place_Prefix_Sum",

@@ -51,60 +51,37 @@ function soln2(A, B) {
  * Space Complexity: O(1)
  */
 function soln3(A, B) {
-  const n = A.length;
   let i = 0;
   let j = 1;
+  const n = A.length;
+  A = A.sort((a,b) => a - b);
+  
   let count = 0;
-
-  while (j < n) {
-    const diff = A[j] - A[i];
-
-    if (diff === B) {
-      if (A[i] === A[j]) {
-        while (j < n && A[i] === A[j]) {
+  while(j < n) {
+      const diff = Math.abs(A[j] - A[i]);
+      if(diff === B) {
+        count++;
+        let currentI = A[i];
+        let currentJ = A[j];
+        while(j < n && A[j] === currentJ) {
           j++;
+        }
+        while(i < n && A[i] === currentI) {
           i++;
-          count++;
         }
+        if(i >= j) {
+          j = i + 1;
+        }
+      } else if(diff < B) {
+          j++;
       } else {
-        // Count all pairs with same difference
-        let counti = 0;
-        let countj = 0;
-
-        // Count duplicates of A[i]
-        for (let k = i; k < j; k++) {
-          if (A[k] === A[i]) {
-            counti++;
-          } else {
-            break;
+          i++;
+          if(j === i) {
+              j++;
           }
-        }
-
-        // Count duplicates of A[j]
-        for (let k = j; k < n; k++) {
-          if (A[k] === A[j]) {
-            countj++;
-          } else {
-            break;
-          }
-        }
-
-        // Add all possible pairs
-        count += counti * countj;
-
-        // Move both pointers
-        i += counti;
-        j += countj;
       }
-    } else if (diff < B) {
-      j++;
-    } else {
-      i++;
-      if (i === j) {
-        j++;
-      }
-    }
   }
+
 
   return count;
 }
@@ -130,3 +107,5 @@ console.log("\nTest cases with duplicates:");
 console.log(soln([1, 1, 1, 2, 2], 1)); // 6 pairs: (1,2) appears 6 times
 console.log(soln2([1, 1, 1, 2, 2], 1)); // 6 pairs: (1,2) appears 6 times
 console.log(soln3([1, 1, 1, 2, 2], 1)); // 6 pairs: (1,1) appears 6 times
+console.log(soln3([8,5,1,10,5,9,9,3,5,6,6,2,8,2,2,6,3,8,7,2,5,3,4,3,3,2,7,9,6,8,7,2,9,10,3,8,10,6,5,4,2,3], 3))
+console.log(soln3([5,2,2,4,9,8,5,3,8,8,10,4,2,10,9,7,6,1,3,9,7,1,3,5], 3))
