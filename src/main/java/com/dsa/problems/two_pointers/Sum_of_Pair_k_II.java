@@ -17,7 +17,7 @@ public class Sum_of_Pair_k_II {
     int count = 0;
 
     while (i < j) {
-      int sum = A.get(i).intValue() + A.get(j).intValue();
+      int sum = A.get(i) + A.get(j);
       if (sum == B) {
         if (A.get(i).equals(A.get(j))) {
           // Calculate pairs with modulo to prevent overflow
@@ -26,24 +26,19 @@ public class Sum_of_Pair_k_II {
         // Count duplicates for both i and j
         int counti = 0;
         int countj = 0;
-        for (int k = i; k < j; k++) {
-          if (A.get(k).equals(A.get(i))) {
-            counti++;
-          } else {
-            break;
-          }
+        int startI = A.get(i);
+        int startJ = A.get(j);
+
+        while (i <= j && A.get(i).equals(startI)) {
+          counti++;
+          i++;
         }
-        for (int k = j; k > i; k--) {
-          if (A.get(k).equals(A.get(j))) {
-            countj++;
-          } else {
-            break;
-          }
+        while (j >= i && A.get(j).equals(startJ)) {
+          countj++;
+          j--;
         }
         // Add all possible pairs
         count = (count + counti * countj) % MOD;
-        i += counti;
-        j -= countj;
       } else if (sum < B) {
         i++;
       } else {
@@ -57,6 +52,9 @@ public class Sum_of_Pair_k_II {
     // Test cases
     ArrayList<Integer> A = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
     System.out.println(countPairs(A, 5)); // 2 pairs: (1,4) and (2,3)
+
+    A = new ArrayList<>(Arrays.asList(1, 2, 6, 6, 7, 9, 9));
+    System.out.println(countPairs(A, 13));
 
     A = new ArrayList<>(Arrays.asList(1, 1, 1));
     System.out.println(countPairs(A, 2)); // 3 pairs: (1,1) appears 3 times

@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Smallest_Positive_missing",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Smallest_Positive_missing",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Rain_water_trapping",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Rain_water_trapping",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Merge_Intervals",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Merge_Intervals",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Merge_Intervals_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Merge_Intervals_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Max_Subarray_Sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Max_Subarray_Sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Flip",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Flip",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Continuous_Array_Query",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Continuous_Array_Query",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Continuous_Array_Query_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.One_D_Array.Continuous_Array_Query_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Factors",
       "request": "launch",
       "mainClass": "com.dsa.problems.basic.Factors",
