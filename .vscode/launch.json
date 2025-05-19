@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NonRepeatingChar",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.strings.NonRepeatingChar",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Binary_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.strings.Binary_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Atoi",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.strings.Atoi",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Anagram",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.strings.Anagram",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Rotate_Array_AntiClockwise",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Rotate_Array_AntiClockwise",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Next_Permutation",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Next_Permutation",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Minimise_the_heights",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Minimise_the_heights",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Max_Product_Subarray",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Max_Product_Subarray",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Max_Circular_subarray_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Max_Circular_subarray_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Majority_Element_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Majority_Element_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Kadane_Algorithm",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.arrays.Kadane_Algorithm",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Sum_of_all_submatrices_sum",
       "request": "launch",
       "mainClass": "com.dsa.problems.Two_D_Array.Sum_of_all_submatrices_sum",
@@ -405,7 +482,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/problems/Minimise_the_heights.js",
+      "program": "${workspaceFolder}/problems/array/Minimise_the_heights.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": [
