@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sum_of_all_submatrices_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.Two_D_Array.Sum_of_all_submatrices_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Spiral_order_matrix_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.Two_D_Array.Spiral_order_matrix_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Row_with_max_1s",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.Two_D_Array.Row_with_max_1s",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "K_in_a_sorted_matrix",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.Two_D_Array.K_in_a_sorted_matrix",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "Boundary_traversal",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.Two_D_Array.Boundary_traversal",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Smallest_Positive_missing",
       "request": "launch",
       "mainClass": "com.dsa.problems.One_D_Array.Smallest_Positive_missing",

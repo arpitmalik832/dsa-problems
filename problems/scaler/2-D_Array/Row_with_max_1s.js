@@ -15,9 +15,9 @@ function soln(A) {
       max1s = m - j;
       rslt = i;
     }
-    if (A[i][j] === 1) {
+    if (j > 0 && A[i][j - 1] === 1) {
       j--;
-    } else if (A[i][j] === 0) {
+    } else {
       i++;
     }
   }
