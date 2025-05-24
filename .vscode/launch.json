@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "unset_bit",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.unset_bit",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "set_bit",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.set_bit",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "occurrence_check",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.occurrence_check",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "occurrence_check_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.occurrence_check_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "compute_2_power_n",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.compute_2_power_n",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "check_set",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.check_set",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "check_for_even",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.check_for_even",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "NonRepeatingChar",
       "request": "launch",
       "mainClass": "com.dsa.problems.strings.NonRepeatingChar",
@@ -370,7 +419,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -385,7 +434,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -400,7 +449,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -415,7 +464,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -430,7 +479,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -445,7 +494,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -460,7 +509,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -475,7 +524,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -490,7 +539,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -505,7 +554,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -520,7 +569,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -535,7 +584,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -550,7 +599,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -565,7 +614,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -580,7 +629,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -595,7 +644,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -610,7 +659,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -625,7 +674,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -640,7 +689,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -655,7 +704,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -670,7 +719,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -685,7 +734,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -700,7 +749,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -715,7 +764,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -730,7 +779,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -745,7 +794,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -760,7 +809,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -775,7 +824,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -790,7 +839,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -805,7 +854,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -820,7 +869,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -835,7 +884,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -850,7 +899,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -865,7 +914,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -880,7 +929,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -895,7 +944,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -910,7 +959,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -925,7 +974,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -940,7 +989,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -955,7 +1004,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -970,7 +1019,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -985,7 +1034,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -1000,7 +1049,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -1015,7 +1064,7 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
@@ -1030,7 +1079,127 @@
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
-      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.12.0/bin/node",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Is Even",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/check_for_even.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch compute 2^n",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/compute_2^n.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch check set",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/check_set.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch set bit",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/set_bit.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch toggle bit",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/toggle_bit.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch unset bit",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/unset_bit.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch occurence check",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/occurence_check.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch occurence check II",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/occurence_check_II.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
       "env": {
         "NODE_ENV": "development"
       },
