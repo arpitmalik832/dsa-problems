@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "unset_b_bits",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.unset_b_bits",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "magic_number",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.magic_number",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "help_from_sam",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.help_from_sam",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "unset_bit",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.bitwise_Operators.unset_bit",
@@ -1196,6 +1217,51 @@
       "name": "Launch occurence check II",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/occurence_check_II.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Magic Number",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/magic_number.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Help from Sam",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/help_from_sam.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Unset B bits",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/unset_b_bits.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
