@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "occurrence_check_III",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.occurrence_check_III",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "unset_b_bits",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.bitwise_Operators.unset_b_bits",
@@ -1306,7 +1313,7 @@
       "request": "launch",
       "name": "Launch Subarrays with OR 1",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subaarays_with_OR_1.js",
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subarrays_with_OR_1.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
