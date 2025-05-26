@@ -42,13 +42,8 @@ function soln(A, B) {
       j--;
     }
 
-    if (sum > 1) {
-      carry = 1;
-      sum = sum % 2;
-    } else {
-      carry = 0;
-    }
-
+    carry = parseInt(sum / 2);
+    sum = sum % 2;
     finalSum = sum.toString() + finalSum;
   }
 
@@ -58,3 +53,4 @@ function soln(A, B) {
 console.log(soln("100", "11")); // "111"
 console.log(soln("1101", "111")); // "10100"
 console.log(soln("01001001", "0110101")); // "10111010"
+console.log(soln("1010", "1011")); // "10111010"

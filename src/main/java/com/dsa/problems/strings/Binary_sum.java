@@ -57,12 +57,8 @@ public class Binary_sum {
         j--;
       }
 
-      if (sum > 1) {
-        carry = 1;
-        sum = sum % 2;
-      } else {
-        carry = 0;
-      }
+      carry = sum / 2;
+      sum = sum % 2;
 
       finalSum.insert(0, sum);
     }
