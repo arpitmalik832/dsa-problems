@@ -6,6 +6,188 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Three_sum_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.two_pointers.Three_sum_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "subsets_II",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.subsets_II",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "reverse_bits",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.reverse_bits",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "multiplication",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.multiplication",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "towerOfHanoi",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.towerOfHanoi",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "isMagicNumber",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.isMagicNumber",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "check_palindrome",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.check_palindrome",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "fast_power",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.fast_power",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "print_arr",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.print_arr",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "array_indices",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.array_indices",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "sum_of_digits",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.sum_of_digits",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "sum_natural_nos",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.sum_natural_nos",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "print_dec_n_inc",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.print_dec_n_inc",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "print_inc",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.print_inc",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "print_dec",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.print_dec",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "fibonacci",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.fibonacci",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.recursion.factorial",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "subsets",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.subsets",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_triplets",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.count_triplets",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "subarray_or_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.subarray_or_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "strange_equality",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.strange_equality",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "min_xor_value",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.min_xor_value",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "grey_code",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.grey_code",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "division",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.division",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "subtraction",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.subtraction",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "addition",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.addition",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "occurrence_check_III",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.bitwise_Operators.occurrence_check_III",
@@ -1314,6 +1496,276 @@
       "name": "Launch Subarrays with OR 1",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subarrays_with_OR_1.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Addition",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/addition.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Substraction",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/substraction.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Strange Equality",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/Strange_equality.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Min XOR Value",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/min_xor_value.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Subarray OR",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subarray_or.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Subsets",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subsets.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Grey Code",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/grey_code.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Count Triplets",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/count_triplets.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Reverse Bits",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/reverse_bits.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch 3 Sum II",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Two Pointers/3_sum_II.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Print Array",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/recursion/print_arr.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Check Palindrome",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/recursion/check_palindrome.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Fast Power",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/recursion/fast_power.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Array Indices",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/recursion/arrray_indices.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Tower of Hanoi",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/recursion/towerOfHanoi.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Is Magic Number",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/recursion/is_magic_number.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Multiplication",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/multplication.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Subsets II",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subsets_II.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
