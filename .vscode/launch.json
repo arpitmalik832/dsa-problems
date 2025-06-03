@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "delete_one",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.gcd.delete_one",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "A_B_modulus",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.gcd.A_B_modulus",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "equal_partitions",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.bitwise_Operators.equal_partitions",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "Three_sum_II",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.two_pointers.Three_sum_II",
@@ -1766,6 +1787,141 @@
       "name": "Launch Subsets II",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/subsets_II.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Equal Partitions",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/Bitwise_operators/equal_partitions.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Largest Coprime Divisor",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/largest_coprime_divisor.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Divisor Game",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/divisor_game.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Implement Power Function",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/implement_power_function.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch GCD",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/gcd.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Pair Sum Divisible by M",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/pair_sum_divisible_by_M.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Mod Sum",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/mod_sum.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch A, B and Modulus",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/A_B_modulus.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Delete One",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/delete_one.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
