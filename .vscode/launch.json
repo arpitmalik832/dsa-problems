@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subarray_with_sum_k",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.subarray_with_sum_k",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "subarray_with_sum_0",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.subarray_with_sum_0",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "subarray_with_given_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.subarray_with_given_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "longest_substring_without_repeat",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.longest_substring_without_repeat",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "longest_subarray_with_sum_0",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.longest_subarray_with_sum_0",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "frequency_of_element_query",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.frequency_of_element_query",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "distinct_elements_in_window",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.distinct_elements_in_window",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_unique_elements",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.count_unique_elements",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_subarray_with_sum_0",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.count_subarray_with_sum_0",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_pair_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.count_pair_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_pair_difference",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.count_pair_difference",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_distinct_elements",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.count_distinct_elements",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "common_elements",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.common_elements",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "check_pair_sum",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.hashing.check_pair_sum",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "super_power",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.gcd.super_power",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "delete_one",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.gcd.delete_one",
@@ -1922,6 +2027,201 @@
       "name": "Launch Delete One",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/problems/scaler/gcd/delete_one.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Super Power",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/gcd/super_power.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Check Pair Sum",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/check_pair_sum.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Count Pair Difference",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/count_pair_difference.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Count Pair Sum",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/count_pair_sum.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Longest Substring Without Repeat",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/longest_substring_without_repeat.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Subarray with Sum 0",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/subarray_with_sum_0.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Subarray with Sum k",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/subarray_with_sum_k.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch First Repeating Element",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/first_repeating_element.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch First Non Repeating Element",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/first_non_repeating_element.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Longest Subarray with sum 0",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/longest_subarray_with_sum_0.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Count Subarray with sum 0",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/count_subarray_with_sum_0.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Subarray with given sum",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/subarray_with_given_sum.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Distinct Numbers in Window",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/hashing/distinct_numbers_in_window.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
