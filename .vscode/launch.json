@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sort_by_color",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.sort_by_color",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "sort_subarray_with_left_and_right_index",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.sort_subarray_with_left_and_right_index",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "sort_01",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.sort_01",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "smallest_number",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.smallest_number",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "quick_sort",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.quick_sort",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "partition_index",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.partition_index",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "merge_two_sorted_arrays",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.merge_two_sorted_arrays",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "merge_sort",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.merge_sort",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "max_chunks_to_make_sorted",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.max_chunks_to_make_sorted",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "largest_number",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.largest_number",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "inversion_count_in_arr",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.inversion_count_in_arr",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "factors_sort",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.sort.factors_sort",
