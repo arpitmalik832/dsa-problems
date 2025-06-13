@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "factors_sort",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.factors_sort",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "count_sort",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.count_sort",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "b_closest_points_to_origin",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.sort.b_closest_points_to_origin",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "rectangle_area",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.maths.rectangle_area",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
+      "name": "rotate_image",
+      "request": "launch",
+      "mainClass": "com.dsa.problems.scaler.Two_D_Array.rotate_image",
+      "projectName": "dsa-practice"
+    },
+    {
+      "type": "java",
       "name": "subarray_with_sum_k",
       "request": "launch",
       "mainClass": "com.dsa.problems.scaler.hashing.subarray_with_sum_k",
@@ -2222,6 +2257,51 @@
       "name": "Launch Distinct Numbers in Window",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/problems/scaler/hashing/distinct_numbers_in_window.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Rotate Image",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/2-D_Array/rotate_image.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Merge Sort",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/sort/merge_sort.js",
+      "args": [],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v22.16.0/bin/node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Quick Sort",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/problems/scaler/sort/quick_sort.js",
       "args": [],
       "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"],
