@@ -20,6 +20,19 @@ public class binary_Search_in_matrix {
     return 0;
   }
 
+  /**
+   * Q. Matrix Search
+   *
+   * Given a matrix of integers A of size N x M and an integer B. Write an efficient algorithm that searches for integer B in matrix A.
+   *
+   * This matrix A has the following properties:
+   *
+   * Integers in each row are sorted from left to right.
+   * The first integer of each row is greater than or equal to the last integer of the previous row.
+   * Return 1 if B is present in A, else return 0.
+   *
+   * NOTE: Rows are numbered from top to bottom, and columns are from left to right.
+   */
   private static int binarySearchInMatrix(ArrayList<ArrayList<Integer>> A, int B) {
     final int n = A.size();
 
