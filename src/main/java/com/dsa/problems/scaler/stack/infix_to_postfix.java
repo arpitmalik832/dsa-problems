@@ -25,10 +25,7 @@ private static String infixToPostFix(String A) {
     if(a != '(' && a != '+' && a != '-' && a != '*' && a != '/' && a != '^' && a != ')') {
       rslt += a;
     } else {
-      if(!st.isEmpty() && ((st.peek() == '+' || st.peek() == '-') && (a == '*' || a == '/' || a == '^') ||
-        (st.peek() == '+' || st.peek() == '-' || st.peek() == '*' || st.peek() == '/') && (a == '^'))) {
-        st.push(a);
-      } else if (!st.isEmpty() && (st.peek() == '+' || st.peek() == '-' || st.peek() == '*' || st.peek() == '/' || st.peek() == '^') && (a == '+' || a == '-')) {
+      if (!st.isEmpty() && (st.peek() == '+' || st.peek() == '-' || st.peek() == '*' || st.peek() == '/' || st.peek() == '^') && (a == '+' || a == '-')) {
         while(!(st.isEmpty() || st.peek() == '(')) {
           rslt += st.pop();
         }

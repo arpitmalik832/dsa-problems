@@ -20,12 +20,6 @@ function soln(A) {
       rslt += a;
     } else {
       if (
-        (["+", "-"].includes(st[st.length - 1]) &&
-          ["*", "/", "^"].includes(a)) ||
-        (["*", "/"].includes(st[st.length - 1]) && ["^"].includes(a))
-      ) {
-        st.push(a);
-      } else if (
         ["*", "/", "+", "-", "^"].includes(st[st.length - 1]) &&
         ["+", "-"].includes(a)
       ) {
